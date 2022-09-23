@@ -79,16 +79,19 @@ header img {
 }
 
 .about-project {
+  text-align: center;
   padding: 10vw;
   margin-top: 50px;
 }
 
 .deliverables {
+  text-align: center;
   padding: 10vw;
   margin-top: 50px;
 }
 
 .info-card-container {
+  text-align: center;
   padding: 10vw;
   margin-top: 50px;
 }
@@ -120,11 +123,13 @@ header img {
 
 a {
   text-decoration: none;
-  color: blue;
+  color: rgb(39, 39, 39);
 }
-
-.info-card-text span a {
-  font-size: 30px;
+.info-card-text {
+  padding: 10px;
+}
+.info-card-text a {
+  font-weight: bold;
 }
 
 .footer {
@@ -183,32 +188,20 @@ a {
     font-size: 2vw;
   }
 
-  .info-card {
+  .info-card-container .row {
     display: flex;
-  }
-
-  .left {
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
-  .right {
-    flex-direction: row-reverse;
+  .info-card {
+    width: 25vw;
+    margin: 10px;
+    height: auto;
   }
 
   .info-card img {
-    width: 30%;
-  }
-
-  .info-card-text {
-    padding: 32px;
-  }
-
-  .info-card-text span {
-    display: flex;
-    flex-direction: row;
-  }
-  .img-container {
-    grid-template-columns: 30% 30% 30%;
-    justify-content: space-between;
+    height: 150px;
   }
 
   .footer-body {
@@ -235,15 +228,13 @@ a {
     bottom: -100px;
   }
 
+  .info-card {
+    height: 25vw;
+    width: 20vw;
+    margin: 20px;
+  }
+
   .info-card img {
-    width: 15%;
-  }
-
-  .info-card-text {
-    padding: 32px;
-  }
-
-  .img-container {
-    grid-template-columns: 22% 22% 22% 22%;
+    height: 150px;
   }
 }
