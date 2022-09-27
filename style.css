@@ -3,6 +3,7 @@ body {
   padding: 0;
   background-color: #ededed;
   font-family: "Josefin Sans", sans-serif;
+
 }
 .f300 {
   font-weight: 300;
@@ -29,7 +30,7 @@ body {
 header {
   width: 100vw;
   height: 240px;
-  background-color: #000000;
+  background-color: #000;
   overflow: hidden;
   text-align: center;
 }
