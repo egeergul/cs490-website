@@ -188,6 +188,7 @@ a {
     height: 25vw;
     width: 20vw;
     margin: 20px;
+    min-height: 350px;
   }
 
 
