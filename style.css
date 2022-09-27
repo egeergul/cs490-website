@@ -12,7 +12,6 @@ body {
   position: relative;
 }
 
-
 header {
   width: 100vw;
   height: 240px;
@@ -55,7 +54,6 @@ header img {
   color: #000;
 }
 
-
 .about-project {
   text-align: center;
   padding: 10vw;
@@ -90,14 +88,6 @@ header img {
 
 .info-card p {
   font-weight: 300;
-}
-
-.fa {
-  margin-right: 20px;
-}
-
-.fa:hover {
-  opacity: 0.7;
 }
 
 a {
@@ -142,8 +132,6 @@ a {
     height: 33vw;
   }
   
-
-
   .info-card-container {
     padding: 9vw;
     padding-bottom: 75px;
