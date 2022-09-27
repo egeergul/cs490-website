@@ -58,12 +58,17 @@ header img {
   text-align: center;
   padding: 10vw;
   padding-top: 20px;
+  padding-bottom: 0px;
+}
+.about-project p {
+  text-align: justify;
+  font-weight: 300;
 }
 
 .deliverables {
   text-align: center;
   padding: 10vw;
-  margin-top: 50px;
+  padding-top: 20px;
 }
 
 .info-card-container {
