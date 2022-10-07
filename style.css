@@ -100,11 +100,21 @@ a {
   text-decoration: none;
   color: rgb(39, 39, 39);
 }
+a:hover {
+  opacity: 0.6;
+}
 .info-card-text {
   padding: 10px;
 }
 .info-card-text a {
   font-weight: bold;
+}
+.info-card-text h2 {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.info-card-text p {
+  margin: 7px;
 }
 
 .footer {
@@ -188,7 +198,7 @@ a {
     height: 25vw;
     width: 20vw;
     margin: 20px;
-    min-height: 350px;
+    min-height: 380px;
   }
 
 }
