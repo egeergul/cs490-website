@@ -5,64 +5,24 @@ body {
   font-family: "Josefin Sans", sans-serif;
 
 }
-.f300 {
+p {
   font-weight: 300;
 }
-.header-avatar {
-  position: relative;
-}
-
-header {
-  width: 100vw;
-  height: 240px;
-  background-color: #000;
-  overflow: hidden;
+.body-container {
+  padding: 10vw;
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
-}
-
-.header-text {
-  position: absolute;
-  top: 0vh;
-  bottom: 0vh;
-  left: 0vh;
-  right: 0vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.header-text h1 {
-  margin: 0;
-  font-size: 10vw;
-  color: #ffffff;
-}
-.header-text p {
-  margin: 0;
-  color: #ffffff;
-}
-
-header img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0.4;
-}
-
-.hero-header-text {
-  z-index: 2;
-  color: #000;
+  width: 80%;
 }
 
 .about-project {
-  text-align: center;
-  padding: 10vw;
   padding-top: 20px;
   padding-bottom: 0px;
 }
 .about-project p {
   text-align: justify;
-  font-weight: 300;
+  
 }
 
 .deliverables {
@@ -90,10 +50,6 @@ header img {
   object-fit: cover;
   width: 100%;
   height: 300px;;
-}
-
-.info-card p {
-  font-weight: 300;
 }
 
 a {
@@ -144,21 +100,12 @@ a:hover {
 @media only screen and (min-width: 768px) {
   /* For tablets: */
 
-  header {
-    height: 33vw;
-  }
-  
   .info-card-container {
     padding: 9vw;
     padding-bottom: 75px;
     padding-top: 75px;
   }
-  .header-text h1 {
-    font-size: 6vw;
-  }
-  .header-text p {
-    font-size: 2vw;
-  }
+
 
   .info-card-container .row {
     display: flex;
