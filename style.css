@@ -26,15 +26,28 @@ p {
 }
 
 .deliverables {
-  text-align: center;
-  padding: 10vw;
   padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+.deliverables p {
+  text-align: justify;
+}
+
+.deliverables ul {
+  margin-top: 30px;
+  list-style: none;
+  align-self:center;
+}
+
+.deliverables li {
+  font-size: larger;
+  margin-top: 10px;
 }
 
 .info-card-container {
   text-align: center;
   padding: 10vw;
-  margin-top: 50px;
 }
 
 .info-card {
@@ -103,7 +116,7 @@ a:hover {
   .info-card-container {
     padding: 9vw;
     padding-bottom: 75px;
-    padding-top: 75px;
+    padding-top: 25px;
   }
 
 
